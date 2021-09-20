@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/design_default_color_secondary"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ScheduleActivity">
+
+    <CalendarView
+        android:id="@+id/calenderview"
+        android:layout_width="match_parent"
+        android:layout_height="291dp"
+        android:background="@color/purple_200">
+
+    </CalendarView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

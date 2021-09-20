@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kericho">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Kericho">
+        <activity android:name=".OrdersActivity" />
+        <activity android:name=".VotesActivity" />
+        <activity android:name=".HouseBussiness" />
+        <activity android:name=".viewcommittee" />
+        <activity android:name=".Tender" />
+        <activity
+            android:name=".viewvideo"
+            android:screenOrientation="landscape" />
+        <activity android:name=".ArchievActivicty" />
+        <activity android:name=".StreamActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".ScheduleActivity" />
+        <activity android:name=".McaActivity" />
+        <activity android:name=".CommiteeActivity" />
+        <activity android:name=".LeadershipActivity" />
+        <activity android:name=".ActsActivity" />
+        <activity android:name=".HansardActivity" />
+        <activity android:name=".MotionsActivity" />
+        <activity android:name=".viewpdf" />
+        <activity android:name=".BillsActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+</manifest>

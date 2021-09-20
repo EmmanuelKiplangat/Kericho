@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="550dp"
+    android:background="@color/green"
+    tools:context=".MotionsActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:cardCornerRadius="20dp"
+        android:background="@color/green"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:background="@drawable/rectangle_4"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="25dp"
+                android:textAlignment="inherit"
+                android:text="TextView"
+                app:layout_constraintEnd_toStartOf="@+id/textView12"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="PROPOSED BY:"
+                android:textColor="@color/orange"
+                android:textSize="20dp"
+                app:layout_constraintStart_toEndOf="@+id/textView11"
+                app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/purple_200"
+                android:text="TextView"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/textView11"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="333dp"
+                android:layout_height="wrap_content"
+                android:text="PROPROSED DATE:"
+                android:textColor="@color/orange"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toTopOf="@+id/textView11"
+                app:layout_constraintEnd_toStartOf="@+id/textView13"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/pBy"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:background="@color/purple_200"
+                android:text="TextView"
+                android:textStyle="italic"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/textView11"
+                app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="SECONDED BY:"
+                android:textColor="@color/orange"
+                android:textSize="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.225"
+                app:layout_constraintStart_toEndOf="@+id/textView11"
+                app:layout_constraintTop_toBottomOf="@+id/pBy" />
+
+            <TextView
+                android:id="@+id/secBy"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/purple_200"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:textStyle="italic"
+                app:layout_constraintHorizontal_bias="0.209"
+                app:layout_constraintStart_toEndOf="@+id/textView11"
+                app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CLOSED DATE:"
+                android:textColor="@color/orange"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.016"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+            <TextView
+                android:id="@+id/cDate"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:background="@color/purple_200"
+                android:text="TextView"
+                android:textStyle="italic"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/textView18"
+                app:layout_constraintTop_toBottomOf="@+id/textView11"
+                app:layout_constraintVertical_bias="0.0" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

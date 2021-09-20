@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/green"
+    android:layout_height="match_parent"
+    tools:context=".HouseBussiness">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/orange"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:text="Orders">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="112dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Order Papers is a daily publication which lists the business of the parliament for that days sitting"
+                    android:textColor="@color/white"
+                    android:textSize="20dp">
+
+                </TextView>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/votes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/orange"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:text="Votes And Proceedings">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="The clerks at the table make breif entries of all that is actually done; and these minutes which are printed  from day to day  for the use of members are called the-Votes and Proceedings of the Assembly. "
+                    android:textColor="@color/white"
+                    android:textSize="20dp">
+
+                </TextView>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/hansard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/orange"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Official Report(Hansard)"
+                    android:textColor="@color/white"
+                    android:textSize="30sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Hansar is the published verbatim report of proceedings of the assemblly. It includes debates ,records of votes and written statements"
+                    android:textColor="@color/white"
+                    android:textSize="20dp">
+
+                </TextView>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/bills"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/orange"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bills"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="30dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="A Bill is proposed legislation under consideration by the Assembly. A Bill does not become law until it is passed  by the Assembly and approved by governor"
+                    android:textColor="@color/white"
+                    android:textSize="20dp">
+
+                </TextView>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/video"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/orange"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="51dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Proceedings(Video)"
+                    android:textColor="@color/white"
+                    android:textSize="30dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="79dp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="20dp"
+                    android:text="Video recordings of the proceedings of parliament for  a day's sitting">
+
+                </TextView>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/motion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/orange"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:text="Motions">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="71dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="These are proposed movements of the by an MCA and seconded by another MCA."
+                    android:textColor="@color/white"
+                    android:textSize="20dp">
+
+                </TextView>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Acts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/orange"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:text="Acts">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="99dp"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Texts of law passed by the legislative body of a jurisdiction concerning the county.">
+
+                </TextView>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+  </ScrollView>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Kericho</string>
+    <string name="leaders">Leadership</string>
+    <string name="acts">Acts</string>
+    <string name="hansard">Hansard</string>
+    <string name="motions">Motions</string>
+    <string name="bills">Bills</string>
+    <string name="house_business">House Business</string>
+    <string name="committees">Committees</string>
+    <string name="leadership">Leadership</string>
+    <string name="mcas">MCAs</string>
+    <string name="todo">TODO</string>
+    <string name="clerk">Clerk</string>
+    <string name="speaker">SPEAKER</string>
+    <string name="previous"><![CDATA[<-]]></string>
+    <string name="forward"><![CDATA[->]]></string>
+    <string name="back"><![CDATA[<-]]></string>
+    <string name="tenders">Tenders</string>
+    <string name="download">Download</string>
+    <string name="latest_news_news_and_ccomments_from_the_assembly">Latest News news,and Comments from The Assembly</string>
+    <string name="news">News</string>
+    z
+</resources>

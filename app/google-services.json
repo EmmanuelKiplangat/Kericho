@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "798628818169",
+    "firebase_url": "https://irep-4f17d-default-rtdb.firebaseio.com",
+    "project_id": "irep-4f17d",
+    "storage_bucket": "irep-4f17d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798628818169:android:8ed839b973c5cdac1c0628",
+        "android_client_info": {
+          "package_name": "com.example.kericho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798628818169-r74e09e050tiir7bd1ouese5qgpnj2s4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDddWDU3RD6_JYc0J7ZG14iqCtLb4InT5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "798628818169-r74e09e050tiir7bd1ouese5qgpnj2s4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
